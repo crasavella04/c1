@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.c1_u {
+  text-decoration: underline;
+}
+
+.c1_b {
+  font-weight: 600;
+}
+
+.c1_i {
+  font-style: italic;
+}
+
+.span_comment {
+  background: #eaff2d;
+  color: black;
+}

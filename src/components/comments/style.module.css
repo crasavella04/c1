@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.paragraph {
+  color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Полупрозрачный цвет текста (пример: черный 50% прозрачности) */
+  overflow: hidden; /* Скрываем лишний текст */
+  white-space: nowrap; /* Запрещаем перенос текста на новую строку */
+  text-overflow: ellipsis; /* Заменяем лишний текст на троеточие */
+}
